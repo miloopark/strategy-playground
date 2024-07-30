@@ -1,34 +1,35 @@
 # Strategy Playground
 
-This repository contains multiple trading strategies implemented using Jupyter Notebooks.
+Playing around with the implementation of various trading strategies using Python. Each strategy is presented in a Jupyter notebook, providing step-by-step instructions and explanations.
 
-## Strategies
+## Table of Contents
 
-1. **Dual Class Arbitrage**: A trading strategy that involves taking advantage of the price discrepancy that exists between stocks that have dual listings.
-2. **Bollinger Band Strategy**: A strategy that uses Bollinger Bands calculated using a 20-day simple moving average (SMA) and standard deviations.
-3. **Reinforcement Learning Algorithm**: An algorithm that leverages reinforcement learning for algo trading.
-4. **Sector-Based Pairs Trading Algorithm**: A strategy that capitalizes on price deviations of two assets within the same sector.
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Implemented Strategies](#implemented-strategies)
+  - [Dual Class Arbitrage](#dual-class-arbitrage)
+  - [Bollinger Band Strategy](#bollinger-band-strategy)
+  - [Reinforcement Learning Algorithm](#reinforcement-learning-algorithm)
+  - [Sector-Based Pairs Trading Algorithm](#sector-based-pairs-trading-algorithm)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Setup
+## Introduction
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/strategy-playground.git
-    cd strategy-playground
-    ```
+This project aims to implement and backtest various trading strategies using historical stock data. The strategies covered include:
+- Dual Class Arbitrage
+- Bollinger Band Strategy
+- Reinforcement Learning Algorithm
+- Sector-Based Pairs Trading Algorithm
 
-2. Create a virtual environment and install dependencies:
-    ```sh
-    python3 -m venv venv
-    source venv/bin/activate
-    pip3 install -r requirements.txt
-    ```
+Each strategy is implemented in a separate Jupyter notebook, providing a clear and interactive way to understand and analyze the performance of each strategy.
 
-3. Start Jupyter Notebook:
-    ```sh
-    jupyter notebook
-    ```
+## Getting Started
 
-## Usage
+To get started, clone the repository and install the necessary dependencies.
 
-Open the Jupyter Notebooks in the `notebooks` directory to view and run the trading strategies.
+```sh
+git clone https://github.com/yourusername/trading-strategies.git
+cd trading-strategies
+pip install -r requirements.txt
