@@ -32,6 +32,8 @@ git clone https://github.com/yourusername/trading-strategies.git
 cd trading-strategies
 pip install -r requirements.txt
 
+```
+
 ## Implemented Strategies
 
 Dual Class Arbitrage
