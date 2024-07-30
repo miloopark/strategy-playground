@@ -31,30 +31,29 @@ To get started, clone the repository and install the necessary dependencies.
 git clone https://github.com/yourusername/trading-strategies.git
 cd trading-strategies
 pip install -r requirements.txt
-
 ```
 
 ## Implemented Strategies
 
-Dual Class Arbitrage
+### Dual Class Arbitrage
 This strategy involves taking advantage of the price discrepancy that exists between stocks that have dual listings (e.g., GOOG vs GOOGL).
 
-Notebook: Dual_Class_Arbitrage.ipynb
+- Notebook: Dual_Class_Arbitrage.ipynb
 
-Bollinger Band Strategy
+### Bollinger Band Strategy
 Bollinger bands are calculated by taking the 20-day simple moving average (SMA) of a stock price and then calculating the upper and lower bounds as the SMA ± two standard deviations of the actual stock price.
 
-Notebook: Bollinger_Band_Strategy.ipynb
+- Notebook: Bollinger_Band_Strategy.ipynb
 
-Reinforcement Learning Algorithm
+### Reinforcement Learning Algorithm
 Reinforcement learning is leveraged in various applications for algorithmic trading. This strategy involves building an RL algorithm to trade a particular financial product.
 
-Notebook: Reinforcement_Learning_Trading.ipynb
+- Notebook: Reinforcement_Learning_Trading.ipynb
 
-Sector-Based Pairs Trading Algorithm
+### Sector-Based Pairs Trading Algorithm
 This strategy is based on the premise that two assets within the same sector/industry will likely have similar performances. Significant deviations in their prices can be capitalized on by buying the falling asset or shorting the rising asset.
 
-Notebook: Sector_Based_Pairs_Trading.ipynb
+- Notebook: Sector_Based_Pairs_Trading.ipynb
 
 ## Dependencies
 The project requires the following Python libraries:
@@ -66,3 +65,8 @@ yfinance
 statsmodels
 scikit-learn
 tensorflow (for Reinforcement Learning Algorithm)
+
+You can install all dependencies using the requirements.txt file:
+```sh
+pip install -r requirements.txt
+```
